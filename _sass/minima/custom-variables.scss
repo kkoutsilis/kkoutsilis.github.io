@@ -1,0 +1,58 @@
+// Slow Morning Thoughts - Custom Minima Skin
+// A warm, contemplative aesthetic inspired by soft morning light
+
+// ========================================
+// Color Palette - Light Mode
+// ========================================
+$color-cream: #FAF7F2;         // Background - like morning paper
+$color-warm-white: #FFFEF9;    // Lighter accent
+$color-linen: #F5F0E8;         // Card backgrounds
+$color-stone: #3D3833;         // Primary text - soft charcoal
+$color-wood: #6B5B4F;          // Secondary text - warm brown
+$color-terracotta: #B87652;    // Accent - like morning light on brick
+$color-sage: #8B9E85;          // Secondary accent - quiet, natural
+
+// Dark Mode Colors - warm, candlelit aesthetic
+$color-charcoal: #1A1816;
+$color-dark-walnut: #242120;
+$color-espresso: #2D2926;
+$color-parchment: #E8E2D9;
+$color-antique: #C4B8A8;
+$color-amber: #D4956A;
+$color-copper: #C17D54;
+
+// Typography
+$font-heading: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+$font-body: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+// Override Minima defaults
+$brand-color: $color-terracotta;
+$brand-color-light: lighten($color-terracotta, 25%);
+$brand-color-dark: darken($color-terracotta, 15%);
+
+$text-color: $color-stone;
+$background-color: $color-cream;
+$code-background-color: $color-linen;
+
+$link-base-color: $color-terracotta;
+$link-visited-color: $color-wood;
+
+$border-color-01: rgba($color-wood, 0.15);
+$border-color-02: rgba($color-wood, 0.25);
+$border-color-03: rgba($color-wood, 0.35);
+
+$table-text-color: $color-stone;
+$table-zebra-color: $color-linen;
+$table-header-bg-color: darken($color-linen, 3%);
+$table-header-border: darken($color-linen, 10%);
+$table-border-color: $border-color-01;
+
+// Spacing
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-2xl: 3rem;
+$spacing-3xl: 4rem;
+$content-width: 48rem;

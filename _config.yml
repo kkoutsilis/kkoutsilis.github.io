@@ -1,0 +1,22 @@
+title: Slow Morning Thoughts
+description: A potential blog
+author: Konstantinos Koutsilis
+url: ""
+baseurl: ""
+
+github_username: kkoutsilis
+linkedin_username: konstantinos-koutsilis
+
+header_pages:
+  - about.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+theme: minima
+
+show_excerpts: true
+
+permalink: /:year/:month/:day/:title/
